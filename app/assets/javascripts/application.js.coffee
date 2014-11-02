@@ -6,5 +6,7 @@
 #= require grellin_ember
 
 # for more details see: http://emberjs.com/guides/application/
-window.GrellinEmber = Ember.Application.create()
+window.GrellinEmber = Ember.Application.create(
+  rootElement: "#ember-app-container"
+)
 

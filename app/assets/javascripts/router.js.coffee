@@ -2,4 +2,7 @@
 
 GrellinEmber.Router.map ()->
   # @resource('posts')
+  @route('restaurants')
+  @route('categories')
+  @route('searches')
 
