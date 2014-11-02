@@ -1,1 +1,12 @@
 Search by restaurant
+
+{{view Ember.Select
+  contentBinding="controller.restaurants"
+  optionLabelPath="content.name"
+  optionValuePath="content.id"
+  prompt="Select a restaurant"
+}}
+
+Kids only...
+
+Button
