@@ -5,7 +5,6 @@ class Api::RestaurantsController < ApplicationController
         { id: 1, name: "one" },
         { id: 2, name: "two" }
       ],
-      #root: false
     )
   end
 end

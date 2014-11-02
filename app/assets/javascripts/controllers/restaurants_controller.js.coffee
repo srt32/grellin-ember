@@ -1,3 +1,6 @@
 GrellinEmber.RestaurantsController = Ember.ArrayController.extend({
-  restaurants: model
+  actions: {
+    search: ->
+      @transitionToRoute('category_scores', { restaurant_id: 1 })
+  }
 })

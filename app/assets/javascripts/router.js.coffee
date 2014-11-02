@@ -1,8 +1,5 @@
-# For more information see: http://emberjs.com/guides/routing/
-
 GrellinEmber.Router.map ()->
-  # @resource('posts')
   @route('restaurants')
   @route('categories')
   @route('searches')
-
+  @resource('category_scores', { path: 'category_scores/:restaurant_id' })

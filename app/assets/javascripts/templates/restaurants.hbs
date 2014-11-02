@@ -1,7 +1,7 @@
 Search by restaurant
 
 {{view Ember.Select
-  contentBinding="controller.restaurants"
+  contentBinding="controller.model"
   optionLabelPath="content.name"
   optionValuePath="content.id"
   prompt="Select a restaurant"
@@ -9,4 +9,5 @@ Search by restaurant
 
 Kids only...
 
-Button
+# pass in selected value
+<button {{action 'search'}}>Search</button>
